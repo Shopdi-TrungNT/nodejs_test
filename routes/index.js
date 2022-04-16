@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Devops Team from Shopdi' });
+  res.render('index', { title: 'Devops Team from Shopdi 2022' });
 });
 
 module.exports = router;
